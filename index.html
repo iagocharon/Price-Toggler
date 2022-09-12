@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Planes</title>
+  </head>
+  <body>
+    <div class="bg">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="top">
+        <path
+          fill="currentColor"
+          d="M46,-52.6C54.2,-47.9,51.7,-28.3,47.9,-13.8C44.1,0.7,38.8,10,34.5,22.2C30.2,34.3,26.8,49.2,16.4,59.1C6,69,-11.3,73.9,-24.2,68.4C-37,62.8,-45.3,46.9,-56.6,30.9C-68,15,-82.3,-1,-81.9,-16.4C-81.6,-31.8,-66.5,-46.6,-50.4,-49.9C-34.3,-53.2,-17.2,-45,0.9,-46.1C18.9,-47.1,37.7,-57.3,46,-52.6Z"
+          transform="translate(100 100)"
+        />
+      </svg>
+      <svg
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+        class="bottom"
+      >
+        <path
+          fill="currentColor"
+          d="M19.8,-22.5C28.8,-20.8,41.3,-19.1,51,-11.3C60.8,-3.5,67.9,10.4,61.8,17.3C55.8,24.2,36.6,24.1,24.1,29C11.6,33.9,5.8,43.8,-2,46.6C-9.9,49.4,-19.8,45.1,-25.1,37.9C-30.5,30.7,-31.4,20.6,-34,11.3C-36.6,2.1,-40.8,-6.3,-40.9,-15.4C-40.9,-24.6,-36.6,-34.6,-29.1,-36.8C-21.6,-39,-10.8,-33.5,-2.7,-29.8C5.4,-26.1,10.9,-24.3,19.8,-22.5Z"
+          transform="translate(100 100)"
+        />
+      </svg>
+    </div>
+    <div class="content">
+      <h1>Nuestros Planes</h1>
+      <div id="toggle">
+        <p>Anual</p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+        <p>Mensual</p>
+      </div>
+      <div class="cards">
+        <div class="side-card left">
+          <h2>Básico</h2>
+          <div class="price">
+            <div class="monthly hidden">
+              <span class="dollar">&dollar;</span>9.99
+            </div>
+            <div class="annually">
+              <span class="dollar">&dollar;</span>99.99
+            </div>
+          </div>
+          <ul>
+            <li>Soporte Ilimitado</li>
+            <li>50GB de almacenamiento</li>
+            <li>1GB de transferencia</li>
+            <li>100 usuarios</li>
+          </ul>
+          <button><p>Conocer Más</p></button>
+        </div>
+        <div class="main-card">
+          <h2>Completo</h2>
+          <div class="price">
+            <div class="monthly hidden">
+              <span class="dollar">&dollar;</span>19.99
+            </div>
+            <div class="annually">
+              <span class="dollar">&dollar;</span>199.99
+            </div>
+          </div>
+          <ul>
+            <li>Soporte Ilimitado</li>
+            <li>200GB de almacenamiento</li>
+            <li>5GB de transferencia</li>
+            <li>300 usuarios</li>
+          </ul>
+          <button><p>Conocer Más</p></button>
+        </div>
+        <div class="side-card right">
+          <h2>Profesional</h2>
+          <div class="price">
+            <div class="monthly hidden">
+              <span class="dollar">&dollar;</span>29.99
+            </div>
+            <div class="annually">
+              <span class="dollar">&dollar;</span>299.99
+            </div>
+          </div>
+          <ul>
+            <li>Soporte Ilimitado</li>
+            <li>1TB de almacenamiento</li>
+            <li>20GB de transferencia</li>
+            <li>1000 usuarios</li>
+          </ul>
+          <button><p>Conocer Más</p></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="price.js"></script>
+  </body>
+</html>
